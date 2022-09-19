@@ -1,0 +1,168 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  body {
+    margin: 70px auto 0px;
+  }
+  
+  h2,
+  h3 {
+    text-align: center !important;
+    margin: 0px;
+  }
+  
+  h1 {
+    font-size: 96px;
+    text-align: center !important;
+    margin: 25px;
+  }
+  
+  h2 {
+    font-size: 48px;
+    text-align: center !important;
+  }
+  
+  h3 {
+    font-size: 24px;
+    opacity: 0.7;
+    text-align: center !important;
+  }
+  
+  p {
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left !important;
+    margin-top: 5px;
+  }
+  
+  .about-me-intro {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center !important;
+    display: flex;
+    margin: 30px 0;
+  }
+  
+  .navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .navigation-links a {
+    margin: 10px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .contact-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    font-size: 30px;
+  }
+  
+  .about-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    font-size: 30px;
+  }
+  
+  .homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+  }
+  
+  .email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 30px;
+    text-decoration: none;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+  
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .rounded {
+    border-radius: 0.25rem !important;
+  }
+  
+  .app-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  
+  .shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  .p-2 {
+    padding: 0.5rem !important;
+  }
+  
+  .app-titles {
+    font-size: 48px;
+    font-weight: 500;
+  }
+  
+  .navbar-brand {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    margin-right: 1rem;
+    margin-left: 8.25rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 48px;
+      line-height: 1.5;
+    }
+    h2 {
+      font-size: 32px;
+    }
+    p {
+      text-align: center;
+    }
+    #project-link {
+      display: block;
+      text-align: center;
+      margin: 0 20px;
+    }
+    .contact-link {
+      font-size: 15px;
+    }
+    .about-link {
+      font-size: 15px;
+    }
+  }
+  
